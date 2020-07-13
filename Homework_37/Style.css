@@ -1,0 +1,143 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    background-color: #000000;
+    text-align: left;
+}
+
+.header h1 {
+    padding: 0;
+    padding-left: 20px;
+    margin: 0;
+    color: #ffffff;
+}
+
+.header h1 span {
+    vertical-align: sub;
+    font-size: 180%;
+    color: #e98f1b;
+}
+
+.header-nav {
+    /* flex-grow: 1; */
+    background-color: rgb(104, 103, 103);
+}
+
+.header-nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-start;
+}
+
+.header-nav li {
+    line-height: 30px;
+    text-align: center;
+    border-right-style: solid;
+    border-right-color: #000000;
+    border-width: 1px;
+    width: 75px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-nav a:hover {
+    color: #e98f1b;
+}
+
+main {
+    width: auto;
+    margin: 0 auto;
+}
+
+.mainContent {
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    background-color: white;
+    top: auto;
+}
+
+.mainContentList,.sideBarList  {
+    list-style-type: none;
+}
+
+.mainContentList li {
+    margin-top: 20px;
+    height: 300;
+    width: 90%;
+    display: inline-table;
+    border-bottom: 2px solid #a3a2a2;
+}
+.mainContentList li a{
+    padding-top: 30px;
+    text-decoration: none;
+    color: #e98f1b;
+}
+
+.mainContentList h2 {
+    margin-top: 0px;
+}
+
+.sidebar {
+    position: absolute;
+    right: 0px;
+    top: auto;
+    height: 100%;
+    padding-top: 5px;
+    background-color: #e5e5e5;
+    min-width: 200px;
+    width: 20%;
+}
+.sideBarList h3{
+    border-bottom: 2px solid #a3a2a2;
+    
+}
+.sideBarList a{
+    text-decoration: none;
+    color: #e98f1b;
+}
+.sideBarList a:hover {
+    color: #3f46ad;
+}
+.sideBarList ul{
+ padding-left: 10px;
+}
+.sideBarList{
+    padding-left: 10px;
+}
+
+
+footer {
+    font-family: Arial, sans-serif;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #000000;
+    width: 100%;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: #e98f1b;
+}
+
+.image {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
